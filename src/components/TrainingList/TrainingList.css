@@ -1,0 +1,20 @@
+.training-list {
+  list-style-type: none;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.training-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.training-item:nth-child(n + 2) {
+  margin-top: 10px;
+}
+
+.training-remuve {
+  cursor: pointer;
+}
